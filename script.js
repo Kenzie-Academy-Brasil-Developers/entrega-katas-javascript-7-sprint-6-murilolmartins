@@ -1,4 +1,10 @@
 
+function myCallback(value) {
+    return `${value} é muito bom!`
+};
+
+let myArr = ["maçã", "uva", "pera"];
+
 function newForEach(array,callback) {
     for(let index = 0; index < array.length; index++) {
         callback(array[index],index,array)
