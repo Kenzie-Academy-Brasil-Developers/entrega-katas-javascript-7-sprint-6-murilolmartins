@@ -1,6 +1,6 @@
 
 function myCallback(value) {
-    return `${value} é muito bom!`
+    console.log(`${value} é muito bom!`)
 };
 
 let myArr = ["maçã", "uva", "pera"];
